@@ -42,12 +42,6 @@ Each summary includes a title, author, and a short description. Data is saved in
 
 ---
 ## 🧠 How It Works
-BookShorts/
--│
--├── index.html # Main page
--├── style.css # Styling
--└── script.js # LocalStorage + DOM functions
-
 
 - User enters book details using the form popup
 - JavaScript saves all data in **LocalStorage**
@@ -71,6 +65,34 @@ BookShorts/
 This project is open-source under the **MIT License**.
 
 ---
+# BookShorts
+
+A simple web app to store and view book summaries using LocalStorage.
+
+## Project Structure
+
+BookShorts/
+│
+├── index.html      # Main page with form and list of book summaries
+├── style.css       # Styling for the web app
+└── script.js       # Handles LocalStorage operations and DOM manipulation
+
+## Features
+
+- Add book details via a form popup
+- Store book summaries in LocalStorage
+- Display saved summaries on page load
+- Delete summaries from UI and LocalStorage
+- Future improvements: edit summaries, search/filter by category or author, add book cover images
+
+## How to Use
+
+1. Open `index.html` in a browser.
+2. Fill the form with book details.
+3. Click "Save" to store the summary.
+4. Use the "Delete" button to remove summaries.
+
+
 
 ## 👤 Developer
 
