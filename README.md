@@ -41,15 +41,13 @@ Each summary includes a title, author, and a short description. Data is saved in
 | Logic + Storage | JavaScript (LocalStorage) |
 
 ---
-
-## 📂 Project Structure
-BookShorts/
-│
-├── index.html # Main page
-├── style.css # Styling
-├── script.js # LocalStorage + DOM functions
-
 ## 🧠 How It Works
+BookShorts/
+-│
+-├── index.html # Main page
+-├── style.css # Styling
+-└── script.js # LocalStorage + DOM functions
+
 
 - User enters book details using the form popup
 - JavaScript saves all data in **LocalStorage**
