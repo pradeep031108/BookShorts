@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookShorts</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Popins font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>BookShorts</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h4>- Robert Kiyosaki</h4>         
+            <p>The book contrasts two mindsets: employee thinking vs. owner thinking.
+Poor Dad values job security and academic degrees.
+Rich Dad values financial education and independence.
+A salary keeps you dependent and limits wealth.
+Assets create income; liabilities drain income.
+The rich buy assets first, then luxuries later.
+Most people reverse that and stay stuck in debt.
+Financial ignorance is the real cause of money problems.
+Schools never teach investing, taxes, or cash flow.
+Fear of risk keeps people poor.
+Employees pay the highest taxes.
+Businesses and investments provide leverage and protection.
+Don’t say “I can’t afford it” — ask “How can I afford it?”
+Learn skills like selling and managing money.
+Start small and reinvest to grow assets.
+Don’t try to look rich — become rich.
+Money works harder than humans ever can.
+Your beliefs about money decide your future.
+Financial freedom means owning your time.
+Change mindset first — wealth follows.
+</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>ADD BOOK</h2>
+        <form >
+            <input type="text" placeholder="Enter Book Title " id="book-title-input">
+            <input type="text" placeholder="Enter Book Author " id="book-author-input">
+            <textarea placeholder="Enter Summary Of The Book" id="book-description-input"></textarea>
+            <button id="add-book"> ADD </button> 
+            <button id="cancel-popup">CANCEL</button>
+
+       
+        </form>
+
+    </div>
+
+
+    <button class="add-button" id="add-popup-button">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
