@@ -21,14 +21,13 @@ Each summary includes a title, author, and a short description. Data is saved in
 ## 📸 Screenshots
 
 ### Home UI
-<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/bfc0bb4f-e3b5-404a-8059-6521f0aa8ae8" />
+<<img width="1920" height="916" alt="image" src="https://github.com/user-attachments/assets/bea8f5f5-91d1-4592-81f4-54dfec317743" />
 
 
 ### Card Layout Example
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/96cf5266-a0f0-4256-bcf5-80659030132b" />
+<img width="1920" height="969" alt="image" src="https://github.com/user-attachments/assets/a933fa36-56ad-4f15-b357-436382b7124b" />
 
-> Replace the images in `assets/` folder with your own screenshots.  
-> Keep the same filenames to avoid breaking markdown.
+
 
 ---
 
